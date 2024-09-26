@@ -1,0 +1,14 @@
+{
+    "read_id3v2":
+    {
+	    "inputs":
+	    [
+		    {"name":"file_name","kind":"required", "type":[["file=*.mp3"], ["char"]], "purpose":"file name"}
+	    ],
+	    "outputs":
+	    [
+		    {"name":"tag", "type":"struct", "purpose":"ID3 tag structure"}
+	    ],
+        "description":"Reader for the ID3 tag version 2 of MP3 files"
+    }
+}
